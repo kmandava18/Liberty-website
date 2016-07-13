@@ -1,0 +1,156 @@
+body{
+  font-family: lol, sans-serif;
+}
+#loc, #servstat, #red, #moxstat,#obe, #rar, #redstat,#serv, #rarstat, #mox {
+  background-color: #636063;
+  font-family: sans-serif;
+}
+
+#status{
+	height: 20px;
+   width: 20px;
+}
+
+#server{
+   width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    color: white;
+    font-family: sans-serif;
+}
+table {
+  background-color: #636063;
+}
+
+th {
+   background-color: #831F82;
+   color: white;
+}
+input#fill {
+   background-color: #636063;
+   border: none;
+   color: white;
+   width: 100%;
+   height: 30px;
+   font-size: 12px;
+}
+
+.form{
+   width: 100%;
+   background-color: #636063;
+}
+.form th, .form td {
+  border: 1px solid white;
+}
+
+.header {
+   width: 100%;
+   height: 50px;
+   background-color: #636063;
+   color:white;
+   border: none;
+}
+
+.dropdown {
+    position: relative;
+    height: 100%;
+    border: none;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.dropbtn {
+    background-color: #636063;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    border-style: none;
+}
+button:focus {outline:0;}
+
+.hordiv {
+   text-align: center;
+   height: 1px;
+   border: none;
+   padding:0;
+   margin: 0;
+}
+.hordiv div{
+   height: 1px;
+   width: 100%;
+   overflow: hidden;
+   font-size: 6px;
+   background-color: #ffffff;
+ }
+
+#o:hover{
+   background-color: #67AD2F;
+}
+
+#t:hover{
+   background-color: #4BBECF;
+}
+
+#th:hover{
+   background-color: #00519E;
+}
+
+.dropCont {
+    display: none;
+    background-color:rgba(0, 0, 0, 0);
+    position: absolute;
+    width: 100%;
+}
+
+
+.show {
+   display:block;
+}
+
+.divide {
+   width: 1px;
+   border: none;
+   padding:0;
+   margin: 0;
+}
+.divide div{
+   width: 1px;
+   height: 80%;
+   overflow: hidden;
+   font-size: 6px;
+   background-color: #ffffff;
+ }
+
+#done{
+   background-color: #636063;
+   border: none;
+   color: white;
+   width: 100%;
+   height: 30px;
+   font-size: 12px;
+}
+
+#done:hover{
+   background-color: #C6C6C6
+   color:black;
+}
+
+.info{
+   background-color: #636063;
+   border: none;
+   color: white;
+   font-size: 30px;
+   width: 100%;
+   height: 50px;
+}
+
+#hide{
+   opacity: 0;
+}
