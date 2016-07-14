@@ -21,12 +21,5 @@
 </form>
 </div>
 
-<!-- 
-<form method="post" action="editServer.php">
-  
-  <input type="submit" value="Submit">
-</form> -->
-
-
 </body>
 </html>
