@@ -1,0 +1,19 @@
+Ketan Mandava
+
+	This interface is fully functional and ready to work. It has been tested fully and it does work when either hard wired or using a VPN. It only has a few setup steps in order to run it.
+1) The program does use MySQL as its database for pulling and updating information. The super user should have the following info
+      Username: super
+      Password: super
+	From there, the database should be called “page” and the table you are going to be using should be called “servers”. The table has the following structure. Just copy and paste the following information when you are in the directory of the database in MySQL.
+CREATE TABLE servers (id INT(11) UNSIGNED PRIMARY KEY NOT NULL AUTO_INCREMENT, loc TEXT NOT NULL, obelix TEXT NOT NULL, serverIP INT(255) NOT NULL, raritanIP INT(255) NOT NULL, RedRatIRIP INT(255) NOT NULL MoxaIP INT(255) DEFAULT '-999')
+
+Now from hear you can use the interface to add IP addresses to monitor. This makes MySQL pretty simple to set up.
+
+
+2) Because this program uses PHP, you need to run some sort of server. I chose to use apache but I think most anything that supports PHP should work.
+
+3) From there it should work perfectly. The loading of the page is a little bit slow and takes a while to actually load the information. Just leave the page after the “Last refresh” information shows up and the table will appear shortly after. This is because it has to ping every server in PHP. The way I implemented it may have not been the most efficient way of doing it. Being as the HTML page refreshes this table every 15 seconds, it is going to take a little longer to update the table, but it will refresh.
+
+4) Depending on your OS, there may be a couple problems with the execute function used to ping the server. If there is a problem with the webpage and nothing is loading properly, try changing this exec function. It is located in the “load doc.php” file. Everything should be labeled so it should be pretty easy to find. 
+
+5) From there it’s just copying and pasting these files into the directory of the server. 
